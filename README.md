@@ -9,8 +9,22 @@ This project is a Rust application that is designed to run on AWS Lambda. It tak
 ## Requirements
 
 - Rust: 1.76.0
-- AWS CLI: [specify version]
+- AWS CLI: 1.18.0
 - An AWS account
+
+
+## Lambda Function
+The Lambda function takes in your name and returns the reverse of the name. For example if you enter `Hermione`, you will get back `enoimreH`. 
+
+### Lambda Function on AWS
+![Alt text](<./Images/Screenshot 2024-02-13 at 00-27-50 Name_Reversal - Lambda.png>)
+
+### Successful Test Run on AWS
+![Alt text](<./Images/Screenshot 2024-02-13 at 00-28-02 Name_Reversal - Lambda.png>)
+
+### Test case example
+![Alt text](<./Images/Screenshot 2024-02-13 at 00-27-26 Name_Reversal - Lambda.png>)
+
 
 ## Setup
 
@@ -57,3 +71,5 @@ To run the application, invoke the AWS Lambda function:
 
 ```bash
 aws lambda invoke --function-name my_lambda_function outputfile.txt
+
+
