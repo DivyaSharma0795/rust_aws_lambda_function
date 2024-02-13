@@ -16,6 +16,8 @@ This project is a Rust application that is designed to run on AWS Lambda. It tak
 ## Lambda Function
 The Lambda function takes in your name and returns the reverse of the name. For example if you enter `Hermione`, you will get back `enoimreH`. 
 
+The output of the function will be - **"Hello, Hermione! the reverse of your name is enoimreH!"**
+
 ### Lambda Function on AWS
 ![Alt text](<./Images/Screenshot 2024-02-13 at 00-27-50 Name_Reversal - Lambda.png>)
 
@@ -26,7 +28,7 @@ The Lambda function takes in your name and returns the reverse of the name. For 
 ![Alt text](<./Images/Screenshot 2024-02-13 at 00-27-26 Name_Reversal - Lambda.png>)
 
 
-## Setup
+## Setup Instructions
 
 1. **Compile the Rust application**:
 
